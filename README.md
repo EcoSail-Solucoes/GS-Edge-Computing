@@ -1,7 +1,14 @@
 # Sistema de Cashback e Contagem de Metais
+## Autores
 
+Este projeto foi desenvolvido por:
+
+- Felipe Men (RM 557571)
+- Matheus Alcantara Estevão (RM 558193)
+- Otávio Ferrão (RM 556452)
+  
 ## Descrição do Projeto
-Este projeto utiliza um microcontrolador para criar um sistema que registra a quantidade de metal coletado e calcula o cashback associado. O sistema utiliza um display LCD para mostrar o valor do cashback e a contagem de metais, além de LEDs, buzzer e servos para indicar e gerenciar o processo.
+Este projeto é uma simulação de uma estação de lixo inteligente desenvolvida pela EcoSail, que visa ajudar na preservação dos oceanos. O sistema registra a quantidade de metal coletado e calcula o cashback associado, incentivando a reciclagem e promovendo a sustentabilidade e um turismo mais sustentável. 
 
 ## Componentes Utilizados
 - Microcontrolador (ex: Arduino)
@@ -33,7 +40,12 @@ Este projeto utiliza um microcontrolador para criar um sistema que registra a qu
 - **Controle de Servos:** Move servos em resposta à inserção de metais.
 - **Display LCD:** Mostra o valor do cashback e a contagem de metais.
 
+##  Link para o Projeto Desenvolvido no Wokwi
+- https://wokwi.com/projects/399880885973632001
+
 ## Código
+
+
 
 ```cpp
 #include <Wire.h>  
