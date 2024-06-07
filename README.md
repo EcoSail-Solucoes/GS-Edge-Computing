@@ -48,7 +48,7 @@ Este projeto é uma simulação de uma estação de lixo inteligente desenvolvid
 
 ## Funcionamento
 - Ao ligar o aplicativo ele simula um detector de metais e a cada metal detectado ele adiciona um centavo de cashback junto à quantidade de metais detectados
-
+![image][Opera Instantâneo_2024-06-06_231637_wokwi com2](https://github.com/EcoSail-Solucoes/GS-Edge-Computing/assets/162123418/8371b37d-a0f4-4e47-b644-0e838f056ae6)
 
 ## Código
 
