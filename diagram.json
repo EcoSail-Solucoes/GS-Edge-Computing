@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "author": "Felipe Men",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0.6, "left": -0.6, "attrs": {} },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": -156.8,
+      "left": 188,
+      "attrs": { "pins": "i2c" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 44.6,
+      "left": 384,
+      "attrs": { "color": "green" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -13.2,
+      "left": -149.8,
+      "attrs": { "color": "red" }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": -103.2,
+      "left": 549,
+      "attrs": { "volume": "0.1" }
+    },
+    { "type": "wokwi-servo", "id": "servo1", "top": -117.2, "left": -153.6, "attrs": {} },
+    { "type": "wokwi-servo", "id": "servo2", "top": -242, "left": 489.6, "attrs": {} },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 51.95,
+      "left": 451.2,
+      "attrs": { "value": "220000" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r2",
+      "top": 52.8,
+      "left": -154.15,
+      "rotate": 90,
+      "attrs": { "value": "220000" }
+    }
+  ],
+  "connections": [
+    [ "lcd1:VCC", "uno:5V", "red", [ "h-134.4", "v336.1", "h101.8" ] ],
+    [ "uno:GND.2", "lcd1:GND", "black", [ "v38.9", "h-102.3", "v-364.8" ] ],
+    [ "lcd1:SDA", "uno:A4.2", "green", [ "h0" ] ],
+    [ "lcd1:SCL", "uno:A5.2", "green", [ "h0" ] ],
+    [ "uno:5V", "btn1:2.l", "red", [ "v29.3", "h195.2" ] ],
+    [ "uno:2", "btn1:1.l", "green", [ "v0" ] ],
+    [ "uno:GND.2", "btn1:2.r", "black", [ "v38.9", "h243.3" ] ],
+    [ "uno:GND.2", "r1:2", "black", [ "v38.9", "h368.1", "v-172.8" ] ],
+    [ "uno:GND.2", "bz1:1", "black", [ "v48.5", "h377.7" ] ],
+    [ "bz1:2", "uno:7", "green", [ "v9.6", "h-394" ] ],
+    [ "servo2:GND", "uno:GND.2", "black", [ "h-489.6", "v441.6", "h182.4" ] ],
+    [ "uno:GND.2", "servo1:GND", "black", [ "v58.1", "h-351.9", "v-316.8" ] ],
+    [ "servo2:PWM", "uno:9", "green", [ "h0" ] ],
+    [ "uno:5V", "servo2:V+", "red", [ "v67.1", "h330.2" ] ],
+    [ "uno:5V", "servo1:V+", "red", [ "v67.1", "h-332.2", "v-316.8" ] ],
+    [ "servo1:PWM", "uno:10", "green", [ "h-9.6", "v38.6", "h316.8" ] ],
+    [ "led1:C", "uno:GND.2", "black", [ "v172.8", "h307.6" ] ],
+    [ "r2:2", "uno:5", "green", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}
