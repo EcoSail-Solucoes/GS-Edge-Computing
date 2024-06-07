@@ -43,6 +43,11 @@ Este projeto é uma simulação de uma estação de lixo inteligente desenvolvid
 ##  Link para o Projeto Desenvolvido no Wokwi
 - https://wokwi.com/projects/399880885973632001
 
+## Projeto pronto
+![image][Opera Instantâneo_2024-06-06_230723_wokwi com](https://github.com/EcoSail-Solucoes/GS-Edge-Computing/assets/162123418/b4555dde-9d1c-46f2-9fc6-edbd82a0c818)
+
+
+
 ## Código
 
 
