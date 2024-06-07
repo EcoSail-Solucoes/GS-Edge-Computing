@@ -1,4 +1,4 @@
-# Sistema de Cashback e Contagem de Metais
+# Sistema de lixo inteligente e cashback
 ## Autores
 
 Este projeto foi desenvolvido por:
